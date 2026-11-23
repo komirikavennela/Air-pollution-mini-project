@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Air Pollution in Gudipallipadu | Mini Project</title>
+  <meta name="description" content="Mini project on the impact of air pollution on health and environment in Gudipallipadu.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">AP State Council of Higher Education &middot; Community Service Project</p>
+    <h1>Impact of Air Pollution on Health and Environment in Gudipallipadu</h1>
+    <p class="lead">Mini Project Report &mdash; a survey of 100 residents</p>
+    <div class="meta">
+      <div><span>By</span><strong>Komirika Vennela</strong></div>
+      <div><span>Reg. No.</span><strong>24JNA05355</strong></div>
+      <div><span>Guide</span><strong>Ms. Ch. Vanaja, M.Tech</strong></div>
+      <div><span>Batch</span><strong>2024 &ndash; 2028</strong></div>
+    </div>
+    <p class="college">Sree Venkateswara College of Engineering, Nellore &middot; Dept. of Computer Science and Engineering</p>
+  </div>
+</header>
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="#details">Details</a>
+    <a href="#intro">Introduction</a>
+    <a href="#method">Methodology</a>
+    <a href="#results">Results</a>
+    <a href="#findings">Findings</a>
+    <a href="#recommend">Recommendations</a>
+    <a href="#conclusion">Conclusion</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="details">
+    <h2>Project Details</h2>
+    <table class="table plain">
+      <tr><th>Name of the Student</th><td>Komirika Vennela</td></tr>
+      <tr><th>Registration Number</th><td>24JNA05355</td></tr>
+      <tr><th>Program / Year</th><td>B.Tech (Computer Science and Engineering), III Year</td></tr>
+      <tr><th>College</th><td>Sree Venkateswara College of Engineering</td></tr>
+      <tr><th>Faculty Guide</th><td>Ms. Ch. Vanaja, M.Tech, Assistant Professor</td></tr>
+      <tr><th>Community / Habitation</th><td>Gudipallipadu</td></tr>
+      <tr><th>Mini Project Period</th><td>13-07-2026 to 26-07-2026 (2 weeks)</td></tr>
+      <tr><th>Main Project Period</th><td>01-06-2026 to 12-07-2026 (6 weeks)</td></tr>
+    </table>
+  </section>
+
+  <section id="intro">
+    <h2>1. Introduction</h2>
+    <p>Air pollution is the presence of harmful substances in the air at levels that can damage human health, the environment and the climate. Common sources include vehicle emissions, industrial activity, agricultural practices, burning of waste and natural events such as dust storms. Exposure is linked to respiratory illness, cardiovascular disease and wider ecosystem damage.</p>
+    <p>During the Community Service Project, awareness campaigns, school workshops and community meetings were conducted in Gudipallipadu. This mini project builds on that work. It studies how aware residents are of air pollution, what health effects they report, and what measures they suggest, using a questionnaire-based survey of 100 residents.</p>
+
+    <h3>2. Objectives</h3>
+    <ul class="checks">
+      <li>To assess the level of awareness about air pollution among residents.</li>
+      <li>To identify the health effects of air pollution reported by residents.</li>
+      <li>To suggest measures to mitigate air pollution in the community.</li>
+    </ul>
+  </section>
+
+  <section id="method">
+    <h2>3. Methodology</h2>
+    <table class="table">
+      <thead><tr><th>Step</th><th>Activity</th><th>Details</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Topic selection and planning</td><td>Topic and objectives finalised on 13-07-2026; questionnaire designed.</td></tr>
+        <tr><td>2</td><td>Survey</td><td>Questionnaire-based survey of 100 residents of Gudipallipadu.</td></tr>
+        <tr><td>3</td><td>Data analysis</td><td>Responses tabulated and converted to percentages to find awareness and health effects.</td></tr>
+        <tr><td>4</td><td>Report preparation</td><td>Findings, conclusion and recommendations written and reviewed with the Faculty Guide.</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Sample size:</strong> 100 residents. <strong>Tool:</strong> structured questionnaire (Yes/No and short-answer questions). <strong>Analysis:</strong> percentage analysis presented through tables and charts.</p>
+
+    <h3>4. Questionnaire</h3>
+    <p>The questionnaire covered four areas. Residents were interviewed politely and without disturbing their households.</p>
+    <table class="table">
+      <thead><tr><th>Section</th><th>Questions</th></tr></thead>
+      <tbody>
+        <tr><td>Demographic characteristics</td><td>Age, sex, occupation, education level, income level</td></tr>
+        <tr><td>Health status</td><td>Do you suffer from any respiratory disease? Have you experienced health problems due to air pollution? Have you visited a doctor or hospital for air pollution related issues? (Yes/No)</td></tr>
+        <tr><td>Economic activities</td><td>Primary source of income? Do you own agricultural land or livestock? Have you experienced economic losses due to air pollution? (Yes/No)</td></tr>
+        <tr><td>Awareness</td><td>Are you aware of the causes and effects of air pollution? Have you taken any measures to reduce exposure? Do you think air pollution is a major problem in your area? (Yes/No)</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="results">
+    <h2>5. Data Analysis and Results</h2>
+    <div class="stats" id="stats"></div>
+
+    <table class="table">
+      <thead><tr><th>Parameter</th><th>Residents (out of 100)</th><th>Result</th></tr></thead>
+      <tbody id="resultsBody"></tbody>
+    </table>
+
+    <h3>5.1 Charts of Survey Results</h3>
+    <div class="grid">
+      <figure class="card">
+        <div id="donut" class="donut-box"></div>
+        <figcaption>Figure 1: Awareness of causes and effects of air pollution</figcaption>
+      </figure>
+      <figure class="card">
+        <div id="healthChart" class="bars"></div>
+        <figcaption>Figure 2: Health effects reported by residents</figcaption>
+      </figure>
+      <figure class="card">
+        <div id="incomeChart" class="bars"></div>
+        <figcaption>Figure 3: Main source of income of surveyed residents</figcaption>
+      </figure>
+      <figure class="card wide">
+        <div id="summaryChart" class="bars"></div>
+        <figcaption>Figure 4: Summary of survey outcomes</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="findings">
+    <h2>6. Findings</h2>
+    <ul class="checks">
+      <li><strong>Awareness:</strong> 75% of residents know the causes and effects of air pollution, while 25% do not.</li>
+      <li><strong>Health effects:</strong> 40% report respiratory problems and 20% report cardiovascular problems.</li>
+      <li><strong>Livelihood:</strong> Agriculture (50%) and daily wage labour (30%) are the main sources of income, so residents spend long hours outdoors.</li>
+      <li><strong>Economic impact:</strong> 20% of residents report economic losses due to air pollution.</li>
+      <li><strong>Suggested measures:</strong> Residents suggested promoting clean energy, improving waste management practices and increasing green cover.</li>
+    </ul>
+
+    <h3>7. Discussion</h3>
+    <p>Although three out of four residents are aware of air pollution, a large share still report health problems. This suggests that awareness alone is not enough; practical measures are needed to reduce exposure at the source. Since many residents work in agriculture and as daily wage labourers, they are exposed to dust, smoke and burning of waste for long periods. The 25% of residents who are not aware of the causes and effects show that awareness programmes should continue and reach every household.</p>
+    <p class="callout" id="conclusionLine"></p>
+  </section>
+
+  <section id="recommend">
+    <h2>8. Recommendations</h2>
+    <div class="grid three">
+      <div class="card rec"><h4>Promote clean energy</h4><p>Encourage solar, wind and biogas to reduce dependence on fossil fuels.</p></div>
+      <div class="card rec"><h4>Improve waste management</h4><p>Segregation, recycling and composting to reduce waste burning.</p></div>
+      <div class="card rec"><h4>Increase green cover</h4><p>Plant trees and develop green spaces to absorb pollutants.</p></div>
+      <div class="card rec"><h4>Raise awareness</h4><p>Continue campaigns, school programmes and community meetings.</p></div>
+      <div class="card rec"><h4>Monitor air quality</h4><p>Set up air quality monitoring to track pollutant levels and guide decisions.</p></div>
+    </div>
+  </section>
+
+  <section id="conclusion">
+    <h2>9. Conclusion, Limitations and Future Scope</h2>
+    <p><strong>Conclusion.</strong> The mini project shows that air pollution has a significant impact on health and environment in Gudipallipadu. Awareness is fairly high (75%), but 40% of residents still report health problems and 20% report economic losses. Promoting clean energy, improving waste management and increasing green cover can help reduce air pollution, along with continued awareness programmes.</p>
+    <p><strong>Limitations.</strong> The study was limited to Gudipallipadu and a sample of 100 residents, and the results are based on self-reported responses. It may not be representative of other areas.</p>
+    <p><strong>Future scope.</strong> Further studies can assess the impact of air pollution on specific health outcomes, evaluate the effectiveness of awareness programmes, and develop strategies to promote clean energy and better waste management.</p>
+
+    <h3>10. References</h3>
+    <ul>
+      <li>World Health Organization (WHO): Air pollution and health fact sheets.</li>
+      <li>Central Pollution Control Board (CPCB), Government of India: National Air Quality Index.</li>
+      <li>AP State Council of Higher Education: Guidelines for the OJT Internship / Community Service Project.</li>
+      <li>Primary data: questionnaire survey of 100 residents of Gudipallipadu, July 2026.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>Mini Project: Impact of Air Pollution on Health and Environment in Gudipallipadu</p>
+    <p>Komirika Vennela &middot; 24JNA05355 &middot; Sree Venkateswara College of Engineering</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
